@@ -1,0 +1,23 @@
+{
+  "name": "digital-answer-node",
+  "version": "1.0.0",
+  "description": "Answer node for testing.",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node ./src/index.ts"
+  },
+  "author": "PucciOnFire",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.7.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "@types/dotenv": "^8.2.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1"
+  }
+}

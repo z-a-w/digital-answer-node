@@ -1,0 +1,80 @@
+# Node modules directory
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+jspm_packages/
+bower_components/
+
+# Environment variables
+.env
+.env.test
+.env.production
+.env.local
+
+# Build directories
+dist/
+build/
+
+# TypeScript
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# Coverage reports
+coverage/
+
+# npm caches
+.npm/
+
+# Parcel-bundler cache (if using Parcel)
+.cache/
+
+# Next.js
+.next/
+
+# Nuxt.js
+.nuxt/
+dist/
+
+# Svelte
+.svelte-kit/
+
+# Logs from coverage tools
+coverage/
+nyc_output/
+
+# IDEs
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+*.tmp
+
+# MacOS system files
+.DS_Store
+
+# Git folder data
+.git/
+
+# Ignore local package-lock files
+package-lock.json
+yarn.lock
+
+# Docker
+docker-compose.override.yml
